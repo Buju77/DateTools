@@ -2,6 +2,8 @@
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 import PackageDescription
 
+// 2023-08-11 yel: file copied from https://github.com/lancy-mega/DateTools/blob/master/Package.swift and fixed `SWIFTPM_MODULE_BUNDLE` in line 26 and line 33
+
 let package = Package(
     name: "DateToolsSwift",
     defaultLocalization: "en",
