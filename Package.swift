@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "DateToolsSwift",
     targets: [
-        Target(name: "DateToolsSwift")
+        .target(name: "DateToolsSwift")
     ]
 )
 package.exclude = ["DateTools", "Examples", "Tests", "DateToolsSwift/Examples"]
